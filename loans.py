@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-### EXERCISE 1
-### IRIS CLASSIFICATION
+### EXERCISE 2
+### LOAN CLASSIFICATION
 
 # import some useful things
 import pandas as pd
