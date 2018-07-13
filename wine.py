@@ -133,7 +133,7 @@ plt.show()
 # it seems that one problem we are having is that the algorithm does not predict actually highly rated wines very well.
 
 #   =====================   #
-### REGRESSION ON QUALITY ###
+###  RED/WHITE PREDICTION ###
 #   =====================   #
 
 # can i tell you if a wine is red or white just based on these attributes?
