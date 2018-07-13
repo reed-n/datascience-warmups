@@ -229,7 +229,12 @@ clf.fit(x_train,y_train)
 print(clf.score(x_cv,y_cv))
 importances = clf.feature_importances_
 print('Feature importances vector to classify wine as red or white is',importances)
-
+plt.figure(6,figsize=(15, 4))
+plt.barh(range(len(importances)), importances, align='center')
+plt.yticks(range(len(importances)), list(X))
+plt.xlabel('Importance of each input feature for classification')
+plt.title('Wine Classifier Feature Importance')
+plt.show()
 # looks like the most important features that distinguish between red and white are
 # total sulfur dioxide and chlorides (for this classifier, in any case.)
 # Random Forest Classifier turns out to tell the same story for importances!
